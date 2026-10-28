@@ -1,0 +1,12 @@
+TMDB SETUP
+
+1. Create a TMDB API key from your TMDB account/API settings.
+2. In the project root (same level as settings.gradle.kts), open/create local.properties.
+3. Add:
+
+TMDB_API_KEY=YOUR_TMDB_API_READ_ACCESS_TOKEN
+
+4. Keep local.properties private. Do not upload it to GitHub.
+5. Sync Gradle and Run.
+
+The app uses TMDB for discovery metadata. It does not scrape streaming sites.
